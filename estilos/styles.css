@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Aquí inicia el Header */
@@ -16,7 +17,6 @@ header img {
 }
 
 header h1 {
-    font-family: 'Poppins', sans-serif;
     margin-left: 80px;
     margin-top: -59px;
     color: white;
@@ -46,6 +46,9 @@ header h1 {
     padding: 60px 68px 40px;
     min-height: 700px;
     width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
 .login_container--form {
@@ -75,12 +78,91 @@ header h1 {
 }
 
 /* el simbolo > lo que hace es que seleccionemos todos los elementos de un tipo, en este caso los divs */
-.login__container--social-media > div{
+
+.login__container--social-media>div {
     display: flex;
     align-items: center;
     font-size: 14px;
     margin-bottom: 20px;
+}
+
+.login__container--social-media>div>img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.login__container--register {
+    font-size: 14px;
+}
+
+.login__container--register a {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login__container--register a:hover {
+    text-decoration: underline;
+}
+
+.input {
+    background-color: transparent;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 2px solid white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    outline: none;
+    height: 55px;
+    font: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+.button {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
     height: 50px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
 }
 
 /* Aquí termina el login */
+
+/* --------------------------------------------------------- */
+
+/* Aquí inicia el Footer */
+
+.footer {
+    background: linear-gradient(#480ca8, #3a0ca3);
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+.footer a {
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Aquí termina el Footer */
