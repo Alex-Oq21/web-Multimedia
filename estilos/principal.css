@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background: #8f57fd;
+    background: linear-gradient(#5a189a,#5a189a);
   }
   
   * {
@@ -10,7 +10,7 @@ body {
   
   .header {
     align-items: center;
-    background: #8f57fd;
+    background: #3c096c;
     color: white;
     display: flex;
     height: 100px;
@@ -73,6 +73,7 @@ body {
     flex-direction: column;
     height: 300px;
     border-radius: 0px 0px 40px 40px;
+    background: linear-gradient(#3c096c,#5a189a);
   }
   
   .main__title {
@@ -81,7 +82,7 @@ body {
   }
   
   .categories__title {
-    background: #8f57fd;
+    
     color: white;
     font-size: 16px;
     margin-top: -16px;
@@ -188,7 +189,7 @@ body {
   
   .footer {
     align-items: center;
-    background-color: #8f57fd;
+    background: linear-gradient(#5a189a, #7b2cbf); 
     display: flex;
     height: 100px;
     width: 100%;
