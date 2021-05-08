@@ -26,9 +26,9 @@ header h1 {
 
 /* -------------------------------------------------------------------------------- */
 
-/* Aquí inicia el formulario registro */
+/* Aquí inicia aviso de página no encontrada */
 
-.register {
+.error {
     background: linear-gradient(#7209b7, #480ca8);
     padding: 70px 30px;
     min-width: calc(100vh - 200px);
@@ -36,83 +36,44 @@ header h1 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-
-.register__container {
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 2px solid white;
-    border-radius: 40px;
     color: white;
-    padding: 60px 68px 40px;
-    min-height: 700px;
-    width: 300px;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
 }
 
-.register_container--form {
-    display: flex;
-    flex-direction: column;
+.error__opcion--iniciaSesion {
+    background: #480ca8;
 }
 
-.register__container--age input {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.2rem;
-    display: block;
-    padding: 6px;
-    background-color: transparent;
+.error__opcion--iniciaSesion button {
     color: white;
-    border: none;
-    outline: none;
-}
-
-.register__container--genre {
-    display: inline-block;
-    height: 25px;
     position: relative;
-    user-select: none;
-    padding: 0px 0px 25px;
-}
-
-.register__container--publicity {
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-
-.register__container--publicity a {
-    color: white;
-    font-size: 14px;
-    text-decoration: none;
-}
-
-.input {
-    background-color: transparent;
-    border-left: 0px;
-    border-right: 0px;
-    border-top: 0px;
-    border-bottom: 2px solid white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    margin-bottom: 30px;
-    padding: 0px 20px;
-    outline: none;
-    height: 55px;
-    font: white;
-    color: white;
-}
-
-::placeholder {
-    color: white;
-}
-
-.button {
+    top: -647px;
+    left: -446px;
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
     border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    height: 50px;
+    letter-spacing: 1px;
+    margin: 25px 0px;
+    text-decoration: none;
+}
+
+.error__opcion--principal {
+    background: #480ca8;
+}
+
+.error__opcion--principal button {
     color: white;
+    text-decoration: none;
+    position: relative;
+    top: -740px;
+    left: 568px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 25px;
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
@@ -122,7 +83,7 @@ header h1 {
     margin: 25px 0px;
 }
 
-/* Aquí termina el Formulario registro */
+/* Aquí termina el aviso de página no encontrada */
 
 /* --------------------------------------------------------- */
 
@@ -149,3 +110,20 @@ header h1 {
 }
 
 /* Aquí termina el Footer */
+
+/* -------------------------------------------- */
+
+/* Media queries */
+
+@media only screen and (max-width: 600px) {
+    .login__container {
+        background-color: transparent;
+        border: none;
+        padding: 0px;
+        width: 100%;
+    }
+    .footer {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}

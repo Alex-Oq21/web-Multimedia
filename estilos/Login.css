@@ -119,6 +119,7 @@ header h1 {
     outline: none;
     height: 55px;
     font: white;
+    color: white;
 }
 
 ::placeholder {
