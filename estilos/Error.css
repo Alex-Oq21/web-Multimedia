@@ -39,11 +39,11 @@ header h1 {
     color: white;
 }
 
-.error__opcion--iniciaSesion {
+.error__option--login {
     background: #480ca8;
 }
 
-.error__opcion--iniciaSesion button {
+.error__option--login button {
     color: white;
     position: relative;
     top: -647px;
@@ -61,11 +61,11 @@ header h1 {
     text-decoration: none;
 }
 
-.error__opcion--principal {
+.error__option--mainMenu {
     background: #480ca8;
 }
 
-.error__opcion--principal button {
+.error__option--mainMenu button {
     color: white;
     text-decoration: none;
     position: relative;
